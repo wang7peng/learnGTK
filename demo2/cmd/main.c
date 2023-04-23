@@ -28,9 +28,10 @@ int main(int argc, char **argv) {
     buttonQuery = gtk_button_new_with_label("查询统计");
     gtk_fixed_put(GTK_FIXED(fixed), buttonQuery, 205, 35);
 
-    GtkWidget *buttonYes = NULL;
-    buttonYes = gtk_button_new_with_label("确定");
-    gtk_fixed_put(GTK_FIXED(fixed), buttonYes, 520, 420);
+    GtkWidget *btnYes = NULL;
+    btnYes = gtk_button_new_with_label("确定");
+    gtk_fixed_put(GTK_FIXED(fixed), btnYes, 520, 420);
+    g_signal_connect(btnYes, "clicked", G_CALLBACK(gtk_main_quit), NULL);
 
     GtkWidget *labelStartTime = NULL;
     labelStartTime = gtk_label_new_with_mnemonic("开始时间");

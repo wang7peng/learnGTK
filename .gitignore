@@ -4,7 +4,7 @@ CMakeFiles
 log
 build
 .vscode
-
+.xmake/
 
 # Object files
 *.o

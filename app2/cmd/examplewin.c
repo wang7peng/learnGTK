@@ -8,6 +8,9 @@ struct _ExampleAppWindow {
     GtkApplicationWindow parent;
 };
 
+/**
+ * 功能: 让 C 能够支持 Gobject 面向对象
+ */
 G_DEFINE_TYPE(ExampleAppWindow, example_app_window,
               GTK_TYPE_APPLICATION_WINDOW);
 

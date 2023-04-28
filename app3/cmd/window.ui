@@ -3,8 +3,8 @@
   <!-- interface-requires gtk+ 3.8 -->
   <template class="ExampleAppWindow" parent="GtkApplicationWindow">
     <property name="title" translatable="yes">Example Application</property>
-    <property name="default-width">320</property>
-    <property name="default-height">180</property>
+    <property name="default-width">480</property>
+    <property name="default-height">320</property>
     <child>
       <object class="GtkBox" id="content_box">
         <property name="visible">True</property>

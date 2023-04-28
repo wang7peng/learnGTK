@@ -2,5 +2,7 @@
 <gresources>
   <gresource prefix="/home/xhp/app3/">
     <file preprocess="xml-stripblanks">window.ui</file>
+    <!-- 每多一个ui文件就增加一个 file 标签 -->
+    <file preprocess="xml-stripblanks">app-menu.ui</file>
   </gresource>
 </gresources>
